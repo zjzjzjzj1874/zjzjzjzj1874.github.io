@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-docsify
+  namespace: ${NS}
+  labels:
+    app: frontend-docsify
+spec:
+  replicas: 1
+  revisionHistoryLimit: 5
+  selector:
+    matchLabels:
+      app: frontend-docsify
+  template:
+    metadata:
+      labels:
+        app: frontend-docsify
+    spec:
+      containers:
+        - name: frontend-docsify
+          image: "docsify:${DOCKER_TAG}"
+          command: ["/bin/bash", "-c", "docsify serve ./docs"] # docsify的启动命令
+          lifecycle:
+            preStop:
+              exec:
+                command: ["sh", "-c", "sleep 5"]
+          ports:
+            - containerPort: 3000
+          volumeMounts:
+            - name: timezone
+              mountPath: /etc/localtime
+      imagePullSecrets:
+        - name: default-secret
+      volumes:
+        - name: timezone
+          hostPath:
+            path: /usr/share/zoneinfo/Asia/Shanghai
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: frontend-docsify-svc
+  namespace: ${NS}
+spec:
+  ports:
+    - port: 3000
+  selector:
+    app: frontend-docsify
+  type: NodePort
