@@ -1,4 +1,9 @@
 
+<article-title title="VitePress构建站点"></article-title>
+
+<article-meta date="2023年7月21日"></article-meta>
+
+--- 
 ## 环境准备
 确保自己环境中有Node和npm(yarn也行)
 

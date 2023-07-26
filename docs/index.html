@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+  <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
   <style>
     .app-nav {
       position: fixed;
@@ -51,6 +52,41 @@
         target: 'h2, h3, h4, h5, h6',
         ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
       },
+      vueComponents: {
+        'article-title': {
+          template: `
+            <div class="article-title" style="font-size: 1.75rem;color: #2c3e50;font-weight: 600;">
+               <p>{{title}}</p>
+            </div>
+          `,
+          props: {
+            title: {
+              type: String,
+              default: ''
+            }
+          },
+        },
+        'article-meta': {
+          template: `
+        <div class="article-meta">
+            <span class="article-meta-author" style="margin-right: 15px">
+                <img src="./../../icon/author.png" alt="作者">
+                <a href="./cli">zjzjzjzj1874</a>
+            </span>
+            <span class="article-meta-date">
+                <img src="./../../icon/date.png" alt="日期">
+                <a href="./cli">{{date}}</a>
+            </span>
+        </div>
+      `,
+          props: {
+            date: {
+              type: String,
+              default: ''
+            }
+          },
+        },
+      },
       plugins: [
         function(hook) {
           var footer = [
@@ -59,6 +95,7 @@
             // '<span><a href="https://github.com/zjzjzjzj1874/docsify">ZJ博客小站</a> &copy;2023.</span>',
             // '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
             '</footer>'
+
           ].join('');
 
           hook.afterEach(function(html) {

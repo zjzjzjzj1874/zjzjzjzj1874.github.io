@@ -1,5 +1,8 @@
+<article-title title="为什么使用K8S"></article-title>
 
-## 为什么使用K8S
+<article-meta date="2023年7月25日"></article-meta>
+
+--- 
 
 - 容器化:目前我们CI/CD使用Jenkins+Docker;已经实现容器化部署,具备使用K8S的必要条件;
 - 可靠性:docker-compose启动和停止服务会存在服务短暂暂停,如果本次发布有异常,则服务暂停时间会更长;K8S的部署是先启动再停止,则能够规避这个问题;

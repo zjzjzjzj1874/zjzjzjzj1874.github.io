@@ -1,4 +1,11 @@
+<article-title title="删除被驱逐的Pod"></article-title>
+
+<article-meta date="2023年7月24日"></article-meta>
+
+--- 
+
 ### 删除所有NS下被驱逐的Pod
+
 ```shell
 #!/bin/bash
 
