@@ -2,7 +2,7 @@
 
 [//]: # (![logo]&#40;_media/icon.svg&#41;)
 
-# zjzjzjzj1874 <small>3.5</small>
+# zjzjzjzj1874 <small>1.0</small>
 
 > A Golang Developer
 
