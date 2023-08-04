@@ -1,10 +1,14 @@
 <!-- _navbar.md -->
 
 * [博客](blog/)
-
-[//]: # (    * [快速开始]&#40;zh-cn/quickstart.md&#41;)
+  * [使用Docsify构建网站](blog/docsify)
+  * [使用Vitepress构建网站](blog/vitepress)
+  * [集成Gitalk](blog/gitalk)
+  * [MongoDB使用小祭巧](blog/mongo)
+  * [MySQL使用小祭巧](blog/mysql)
 
 
 * [笔记](note/)
-
-[//]: # (    * [配置项]&#40;zh-cn/configuration.md&#41;)
+  * [shell实战](note/shell/)
+  * [k8s实战](note/k8s/)
+  * [golang](note/go/)
