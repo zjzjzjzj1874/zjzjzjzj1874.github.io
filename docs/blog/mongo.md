@@ -90,3 +90,43 @@ db.Table_Name.createIndex({"filed_a":-1,created_time:-1},{background:1})
 ```sql
 db.Table_Name.getIndexes()
 ```
+
+
+### 其他操作
+
+#### 数组字段查询使用in查询
+我们业务有个字段需要多选,同时数据库字段也是一个数组类型,举例说明一下使用:
+* 创建一个测试表
+```sql
+db.test.insertMany([
+   {
+     "_id": 1,
+     "numbers": [1, 2]
+   },
+   {
+     "_id": 2,
+     "numbers": [2, 4]
+   },
+   {
+     "_id": 3,
+     "numbers": [3, 5]
+   },
+   {
+     "_id": 4,
+     "numbers": [3, 6]
+   },
+   {
+     "_id": 5,
+     "numbers": [4, 6]
+   }
+ ])
+```
+* 查询语句
+```sql
+db.test.find({"numbers": {"$in": [1, 3, 5]}}).pretty()
+```
+* 查询结果![img.png](static/img.png)
+
+> 还好使用的是MongoDB,如果使用mysql,这个功能要被伤透脑筋.
+
+> 所以MongoDB和MySQL各有优劣,mysql在事务和查询速度层面那肯定顶呱呱,但是在数据结构层面,肯定是不如mongo便捷,毕竟一个弱类型,一个强类型.
