@@ -5,3 +5,4 @@
  * [集成Gitalk](blog/gitalk)
  * [MongoDB使用小祭巧](blog/mongo)
  * [MySQL使用小祭巧](blog/mysql)
+ * [OpenSSL](blog/openssl)
