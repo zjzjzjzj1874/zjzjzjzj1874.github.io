@@ -130,3 +130,26 @@ db.test.find({"numbers": {"$in": [1, 3, 5]}}).pretty()
 > 还好使用的是MongoDB,如果使用mysql,这个功能要被伤透脑筋.
 
 > 所以MongoDB和MySQL各有优劣,mysql在事务和查询速度层面那肯定顶呱呱,但是在数据结构层面,肯定是不如mongo便捷,毕竟一个弱类型,一个强类型.
+
+#### 数据导出
+```sql
+mongoexport -h 127.0.0.1 --port 27017 -u user -p pwd --authenticationDatabase=admin -d db_test -c t_test -f "url" -o export.csv --noHeaderLine -q '{"f_id":"64c0bc255a1bca0001fef5bd","status":1}'
+```
+解释:
+-h 127.0.0.1：指定 MongoDB 服务器的主机名或 IP 地址。这里设置为 127.0.0.1 表示连接本地的 MongoDB 服务器。
+
+--port 27017：指定 MongoDB 服务器的端口号。这里设置为 27017，表示使用该端口连接 MongoDB。
+
+-u rwuser -p admin --authenticationDatabase=admin：指定连接 MongoDB 服务器所需的认证信息。-u 是用户名，-p 是密码，--authenticationDatabase 指定认证数据库，这里设置为 admin。
+
+-d db_test：指定要导出的数据库名称，这里是 db_test。
+
+-c t_test：指定要导出的集合（表）名称，这里是 t_test。
+
+-f "url"：指定要导出的字段（列），这里是 url 字段;多个文档使用逗号分割,-f "field1,field2,field3"
+
+-o export.csv：指定输出的 CSV 文件名，这里是 export.csv。
+
+--noHeaderLine：表示导出的 CSV 文件不包含标题行。
+
+-q '{"f_id":"64b7a6a63ff5dd0001a4e8f4","status":1}'：指定查询条件，只导出满足该查询条件的数据。这里查询的条件是 f_id 字段等于 "64b7a6a63ff5dd0001a4e8f4" 并且 status 字段等于 1 的文档。
