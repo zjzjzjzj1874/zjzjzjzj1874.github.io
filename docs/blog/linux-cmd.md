@@ -54,7 +54,7 @@ open .
     ```
     您就会发现Google浏览器的百度页面为您打开了.
 * Goland项目打开
-   ```shell
+  ```shell
   open -a "GoLand" /path/to/your/project
   ```
   配合alias使用,如:

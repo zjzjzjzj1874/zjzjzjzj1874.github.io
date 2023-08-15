@@ -9,7 +9,9 @@
   * [OpenSSL](blog/openssl)
   * [Linux CMD](blog/linux-cmd)
 
-
+* [工具](tool/)
+  * [Jupyter安装](tool/jupyter)
+  
 * [笔记](note/)
   * [shell实战](note/shell/)
   * [k8s实战](note/k8s/)
