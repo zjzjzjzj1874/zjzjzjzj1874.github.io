@@ -5,7 +5,7 @@
 
 --- 
 ## 环境准备
-确保自己环境中有Node和npm(yarn也行)
+确保自己环境中有 Node 和 NPM（Yarn也行）
 
 ## 初始化项目
 ```shell
@@ -26,7 +26,7 @@ npm install # yarn install # 也是可以的
 ```shell
 npm run dev   
 ```
-然后访问http://localhost:3000
+然后访问 http://localhost:3000
 
 ## 编辑文档
 接下来，你可以根据需要进行进一步的自定义和编辑，包括样式、布局、主题、插件等
@@ -35,12 +35,12 @@ npm run dev
 ```shell
 npm run build
 ```
-将生成的dist目录放到你个人博客即可.
+将生成的`dist`目录放到你个人博客即可.
 
 ## 流水线构建
-如果您使用githubio,则将代码推送到仓库即可;
-如果您使用自己的站点部署,可以集成Ci/CD;
-集成CI/CD流程到项目中.后续将会慢慢介绍.
+如果您使用 githubio，则将代码推送到仓库即可；
+如果您使用自己的站点部署，可以集成 CI/CD；
+后续将会慢慢介绍如何将 CI/CD 流程集成到项目中。
 
 ## 参考文档
 * [中文官方网站](https://vitejs.cn/vitepress/)

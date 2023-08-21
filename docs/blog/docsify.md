@@ -5,7 +5,7 @@
 
 --- 
 ## 快速开始
-确保自己环境中有Node和npm,安装全局的`docsify-cli`工具,方便创建及在本地预览生成的文档
+确保自己环境中有 Node 和 NPM ，安装全局的`docsify-cli`工具，方便创建及在本地预览生成的文档。
 ```shell
 npm i docsify-cli -g
 ```
@@ -28,7 +28,7 @@ tree -a
 ```
 - `index.html`入口文件
 - `README.md`作为主页内容渲染
-- `.nojekyll`用于阻止GitHub Pages忽略掉下划线开头的文件
+- `.nojekyll`用于阻止 GitHub Pages 忽略掉下划线开头的文件
 
 ## 预览服务
 启动本地开发服务器并预览
@@ -42,9 +42,9 @@ docsify serve docs -p 8080
 
 
 ## CI/CD集成
-如果您使用githubio,则将代码推送到仓库即可;
-如果您使用自己的站点部署,可以集成Ci/CD;
-集成CI/CD流程到项目中.后续将会慢慢介绍.
+如果您使用 githubio ，则将代码推送到仓库即可；
+如果您使用自己的站点部署，可以集成 CI/CD；
+后续将会慢慢介绍如何将 CI/CD 流程集成到项目中。
 
 ## 参考文档
 
