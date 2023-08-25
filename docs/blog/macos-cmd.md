@@ -181,10 +181,9 @@ usage: screencapture [-icMPmwsWxSCUtoa] [files]
   files   where to save the screen capture, 1 file per screen
 ```
 
-* 最常用
+* 最常用 选中后存入剪切板
 ```shell
-screencapture -ci
-
 # -i 选中一块区域
 # -c 选中后保存至剪切板中
+screencapture -ci
 ```
