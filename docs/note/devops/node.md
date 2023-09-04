@@ -1,4 +1,4 @@
-<article-title title="Jenkins"></article-title>
+<article-title title="Jenkins新增Node"></article-title>
 
 <article-meta date="2023年08月24日"></article-meta>
 
