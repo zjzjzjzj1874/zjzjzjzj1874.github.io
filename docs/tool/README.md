@@ -1,3 +1,4 @@
 ### 工具
 
-个人开发中经常使用或者有意思的小工具...
+* [Jupyter安装](tool/jupyter)
+* [ZSH安装与插件配置](tool/zsh)
