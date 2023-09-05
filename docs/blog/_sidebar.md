@@ -7,3 +7,4 @@
  * [MySQL使用小祭巧](blog/mysql)
  * [OpenSSL](blog/openssl)
  * [MacOS CMD](blog/macos-cmd)
+ * [ZSH安装与插件配置](blog/zsh)
