@@ -46,6 +46,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 
 ### 插件安装
 
+> 国内如果Github拉取插件很慢,建议从Gitee拉取
 * 安装高亮
   * 下载插件
     ```shell

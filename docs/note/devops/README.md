@@ -3,5 +3,6 @@
 * [Jenkins新建节点](note/devops/node)
 * [Jenkins新建流水线](note/devops/pipeline)
 * [Kibana+ES登陆503报错](note/devops/kibana-503)
+* [Ubuntu安装Go环境](note/devops/ubuntu-go)
 
 Devops常见问题总结...
