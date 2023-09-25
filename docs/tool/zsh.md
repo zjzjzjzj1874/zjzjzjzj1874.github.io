@@ -84,6 +84,8 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
   ```shell
   echo '[[ -s /usr/share/autojump/autojump.zsh ]] && . /usr/share/autojump/autojump.zsh' >> ~/.zshrc
   ```
+  > 注意,如果上面不生效,使用下面的尝试 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && source /opt/homebrew/etc/profile.d/autojump.sh
+  查看[Issue](https://github.com/wting/autojump/issues/656)
   * 重载`zsh`配置
   ```shell
   source ~/.zshrc

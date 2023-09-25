@@ -8,7 +8,6 @@
   * [MySQL使用小祭巧](blog/mysql)
   * [OpenSSL](blog/openssl)
   * [MacOS CMD](blog/macos-cmd)
-  * [ZSH安装与插件配置](blog/zsh)
 
 * [工具](tool/)
   * [Jupyter安装](tool/jupyter)
