@@ -1,6 +1,6 @@
 <article-title title="Jenkins新增Node"></article-title>
 
-<article-meta date="2023年08月24日"></article-meta>
+<article-meta created="2023年08月24日" updated="2023年08月24日"></article-meta>
 
 --- 
 

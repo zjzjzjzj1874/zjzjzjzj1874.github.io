@@ -1,6 +1,6 @@
 <article-title title="Pipeline流水线"></article-title>
 
-<article-meta date="2023年08月28日"></article-meta>
+<article-meta created="2023年08月28日" updated="2023年08月28日"></article-meta>
 
 --- 
 

@@ -2,7 +2,7 @@
 
 <article-title title="Mod浅谈"></article-title>
 
-<article-meta date="2023年7月25日"></article-meta>
+<article-meta created="2023年7月25日" updated="2023年7月25日"></article-meta>
 
 --- 
 

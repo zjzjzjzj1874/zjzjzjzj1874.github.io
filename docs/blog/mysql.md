@@ -1,7 +1,7 @@
 
 <article-title title="Mysql使用小祭巧"></article-title>
 
-<article-meta date="2023年8月03日"></article-meta>
+<article-meta created="2023年8月03日" updated="2023年8月03日"></article-meta>
 
 ---  
 

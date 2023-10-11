@@ -78,14 +78,22 @@
                 <img src="./../../icon/author.png" alt="作者">
                 <a href="./cli">zjzjzjzj1874</a>
             </span>
-            <span class="article-meta-date">
-                <img src="./../../icon/date.png" alt="日期">
-                <a href="./cli">{{date}}</a>
+            <span class="article-meta-created">
+                <img src="./../../icon/date.png" alt="创建日期">
+                <a href="./cli">{{created}}</a>
+            </span>
+            <span class="article-meta-update">
+                <img src="./../../icon/date.png" alt="更新日期">
+                <a href="./cli">{{updated}}</a>
             </span>
         </div>
       `,
           props: {
-            date: {
+            created: {
+              type: String,
+              default: ''
+            },
+            updated: {
               type: String,
               default: ''
             }

@@ -1,7 +1,7 @@
 
 <article-title title="OpenSSL"></article-title>
 
-<article-meta date="2023年8月9日"></article-meta>
+<article-meta created="2023年8月9日" updated="2023年8月9日"></article-meta>
 
 ---
 

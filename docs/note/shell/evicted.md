@@ -1,6 +1,6 @@
 <article-title title="删除被驱逐的Pod"></article-title>
 
-<article-meta date="2023年7月24日"></article-meta>
+<article-meta created="2023年7月24日" updated="2023年7月24日"></article-meta>
 
 --- 
 

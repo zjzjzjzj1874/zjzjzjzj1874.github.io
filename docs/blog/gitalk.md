@@ -1,7 +1,7 @@
 
 <article-title title="站点集成gitalk"></article-title>
 
-<article-meta date="2023年7月28日"></article-meta>
+<article-meta created="2023年7月28日" updated="2023年7月28日"></article-meta>
 
 ---  
 ## Docsify集成Gitalk

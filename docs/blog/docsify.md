@@ -1,7 +1,7 @@
 
 <article-title title="Docsify构建站点"></article-title>
 
-<article-meta date="2023年7月21日"></article-meta>
+<article-meta created="2023年7月21日" updated="2023年7月21日"></article-meta>
 
 --- 
 ## 快速开始

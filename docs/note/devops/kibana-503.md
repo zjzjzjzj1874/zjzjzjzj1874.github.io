@@ -1,6 +1,6 @@
 <article-title title="Kibana报错503排查"></article-title>
 
-<article-meta date="2023年09月04日"></article-meta>
+<article-meta created="2023年09月04日" updated="2023年09月04日"></article-meta>
 
 --- 
 #### EFK版本

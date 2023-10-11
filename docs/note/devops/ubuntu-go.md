@@ -1,6 +1,6 @@
 <article-title title="Ubuntu安装Go环境"></article-title>
 
-<article-meta date="2023年09月06日"></article-meta>
+<article-meta created="2023年09月06日" updated="2023年09月06日"></article-meta>
 
 --- 
 

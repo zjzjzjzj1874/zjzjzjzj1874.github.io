@@ -1,6 +1,6 @@
 <article-title title="杂项"></article-title>
 
-<article-meta date="2023年09月13日"></article-meta>
+<article-meta created="2023年09月13日" updated="2023年09月13日"></article-meta>
 
 --- 
 

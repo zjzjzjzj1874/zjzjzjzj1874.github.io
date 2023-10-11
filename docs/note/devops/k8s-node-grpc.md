@@ -1,6 +1,6 @@
 <article-title title="记一次K8S节点状态异常修复"></article-title>
 
-<article-meta date="2023年10月08日"></article-meta>
+<article-meta created="2023年10月08日" updated="2023年10月08日"></article-meta>
 
 --- 
 

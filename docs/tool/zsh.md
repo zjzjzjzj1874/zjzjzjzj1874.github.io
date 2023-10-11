@@ -1,7 +1,7 @@
 
 <article-title title="ZSH安装与插件配置"></article-title>
 
-<article-meta date="2023年9月05日"></article-meta>
+<article-meta created="2023年9月05日" updated="2023年9月05日"></article-meta>
 
 ---  
 

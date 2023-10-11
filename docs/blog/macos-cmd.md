@@ -1,7 +1,7 @@
 
 <article-title title="Linux常用命令"></article-title>
 
-<article-meta date="2023年8月10日"></article-meta>
+<article-meta created="2023年8月10日" updated="2023年8月10日"></article-meta>
 
 ---
 
