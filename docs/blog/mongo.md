@@ -1,7 +1,7 @@
 
 <article-title title="MongoDB使用小祭巧"></article-title>
 
-<article-meta created="2023年8月01日" updated="2023年8月01日"></article-meta>
+<article-meta created="2023年8月01日" updated="2023年10月11日"></article-meta>
 
 ---
 
@@ -91,6 +91,19 @@ db.Table_Name.createIndex({"filed_a":-1,created_time:-1},{background:1})
 db.Table_Name.getIndexes()
 ```
 
+### 高级操作
+
+#### 使用Function更新
+* 先查询,再遍历更新
+```sql
+# 给Test表中的name字段增加一个CRM-的前缀,筛选条件是name为空的
+db.Test.find({ name: ""}).forEach(function(doc) {
+  db.Test.update(
+    { _id: doc._id },
+    { $set: { name: "CRM-" + doc.name } }
+  );
+});
+```
 
 ### 其他操作
 
