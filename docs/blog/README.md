@@ -7,3 +7,4 @@
 * [MySQL使用小祭巧](blog/mysql)
 * [OpenSSL](blog/openssl)
 * [MacOS CMD](blog/macos-cmd)
+* [多媒体](blog/media)
