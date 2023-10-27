@@ -7,5 +7,6 @@
 * [Ubuntu安装Docker-compose](note/devops/ubuntu-docker-compose)
 * [杂项](note/devops/chore)
 * [记一次K8S节点异常恢复](note/devops/k8s-node-grpc)
+* [Nginx代理静态资源](note/devops/nginx-static)
 
 Devops常见问题总结...
