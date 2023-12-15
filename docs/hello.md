@@ -1,1 +1,1 @@
-这是一个Docsify的hello world.
+Docsify的hello world.
