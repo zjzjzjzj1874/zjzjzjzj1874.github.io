@@ -8,3 +8,4 @@
 * [杂项](note/devops/chore)
 * [记一次K8S节点异常恢复](note/devops/k8s-node-grpc)
 * [Nginx代理静态资源](note/devops/nginx-static)
+* [域名](note/devops/domain)
