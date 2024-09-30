@@ -106,7 +106,6 @@ Time
 ```bash
 # 选项指定
 tail -n 5 /etc/passwd | awk -F '{print $1}'
-
 # 内置变量指定-选项指定最终还是会被赋值给内置变量
 tail -n 5 /etc/passwd | awk -v FS=":" 'print $1'
 ```
