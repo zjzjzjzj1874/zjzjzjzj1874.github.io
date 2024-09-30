@@ -4,3 +4,4 @@
 * [K8S实战](note/k8s/)
 * [Golang](note/go/)
 * [Devops](note/devops/)
+* [Linux命令](note/linux/)
