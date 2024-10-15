@@ -1,8 +1,16 @@
 <article-title title="删除被驱逐的Pod"></article-title>
 
-<article-meta created="2023年7月24日" updated="2023年7月24日"></article-meta>
+<article-meta created="2023年7月24日" updated="2024年10月15日"></article-meta>
 
 --- 
+
+### 删除指定命名空间下不正常的pod-多管道命令
+```shell
+kubectl get pod -n test --no-headers | grep -v "Running" | awk '{print $1}' | xargs kubectl delete pod -n test
+
+# 上面命令等价于
+kubectl get pod -n test --no-headers | awk '$3 != "Running" {print $1}' | xargs kubectl get pod -n test
+```
 
 ### 删除所有NS下被驱逐的Pod
 
